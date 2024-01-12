@@ -1,0 +1,10 @@
+/* EmojiList.css */
+.emoji-size {
+  font-size: 30px;
+}
+
+.container {
+  display: inline-block;
+  text-align: center;
+  width:29.9%;
+}

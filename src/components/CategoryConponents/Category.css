@@ -1,0 +1,19 @@
+/* EmojiDisplay.css */
+.container {
+  display: flex;
+}
+
+.category-list {
+  flex: 1; /* カテゴリー部分を適切な大きさにする */
+  margin-right: 20px; /* 右側のスペース */
+}
+
+.emoji-list {
+  flex: 2; /* 絵文字表示部分を適切な大きさにする */
+  display: flex;
+  flex-wrap: wrap; /* 絵文字が折り返し表示されるように */
+}
+
+.emoji-category {
+  padding-right: 10px;
+}

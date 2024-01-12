@@ -1,0 +1,24 @@
+/* EmojiDisplay.css */
+
+.emoji-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.icon-btn {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: white;
+  margin: 5px; /* アイテム間の余白 */
+  cursor: pointer;
+}
+
+.column {
+  background-color: rgb(20 110 190);
+  color: #fff;
+  cursor: pointer;
+  margin: 3px;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
